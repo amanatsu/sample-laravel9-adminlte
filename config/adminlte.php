@@ -318,6 +318,12 @@ return [
             'icon_color' => 'cyan',
             'url'        => '#',
         ],
+        [
+            'text' => '商品マスタ',
+            'route'  => 'product.index',
+            'icon' => 'fas fa-shopping-cart',
+            'active' => ['product/*'],
+        ],
     ],
 
     /*
